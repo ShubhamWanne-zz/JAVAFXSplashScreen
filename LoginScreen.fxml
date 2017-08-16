@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4286f4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notification.and.splash.screen.LoginScreenController">
+   <children>
+      <Pane fx:id="root_pane" layoutX="183.0" layoutY="36.0" prefHeight="313.0" prefWidth="244.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <JFXTextField fx:id="user" focusColor="#4286f4" labelFloat="true" layoutX="55.0" layoutY="105.0" promptText="Enter your name" />
+            <JFXButton fx:id="enter" buttonType="RAISED" layoutX="96.0" layoutY="164.0" onAction="#show_notification" ripplerFill="#6ff2fc" style="-fx-background-color: #4286f4;" text="Enter" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
